@@ -30,9 +30,9 @@ node {
       sh "'${mvnHome}/bin/mvn' -Dmaven.test.failure.ignore install -DskipTests"
   }
   stage ('Deliver & Deployment') {
-      sh 'curl -u admin:redhat@123 -T target/**.war "http://3.108.237.20:8080/manager/text/deploy?path=/tabrez&update=true"'
+      sh 'curl -u admin:redhat@123 -T target/**.war "http://3.110.166.156:8080/manager/text/deploy?path=/tabrezmohd&update=true"'
   }
   stage ('SmokeTest') {
-      sh 'curl --retry-delay 10 --retry 5 "http://3.108.237.20:8080/tabrez"'
+      sh 'curl --retry-delay 10 --retry 5 "http://3.110.166.156:8080/tabrezmohd"'
   }
 }
