@@ -27,10 +27,10 @@
 		<jacoco.version>0.7.9</jacoco.version>
 		
 		<!-- SonarQube Integration -->
-		<sonar.organization>java-sc</sonar.organization>
-		<sonar.projectKey>java-sc</sonar.projectKey>
-		<sonar.host.url>http://52.66.250.23:9000</sonar.host.url>
-		<sonar.login>sqp_70e4a94ec0185a4b21bd455b54fb410cdebbb021</sonar.login>
+		<sonar.organization>java-sc21</sonar.organization>
+		<sonar.projectKey>java-sc21</sonar.projectKey>
+		<sonar.host.url>http://13.126.0.197:9000</sonar.host.url>
+		<sonar.login>sqp_d28df3dd8c84f1a32298ab6b0a39b17f6d23af11</sonar.login>
 	</properties>
 	
 	<!-- Jfrog Integration with POM.xml file -->
